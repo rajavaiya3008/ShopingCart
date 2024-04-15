@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    background-color: #e3f2fd;
+    
+}
+.navbar{
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+
+    position: relative;
+
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    padding: 10px;
+}
+
+.nav-items{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.nav-items li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactus:hover{
+    cursor: pointer;
+    color: rgb(165, 43, 226);
+}
+
+.cart-btn{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+
+.cart-count{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(43, 226, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(198, 45, 45);
+
+}
+
+.cart-btn:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:530px){
+    .hidden-btn{
+        display: none;
+    }
+
+    
+
+    
+
+    
+}
+
+@media screen and (max-width:430px){
+    .nav-btn{
+        display: none;
+    }
+
+    
+}
+
+.menu-list{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 70px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: none;
+}
+
+
+
+@media screen and (min-width:531px){
+    .more-btn{
+        display: none;
+    }
+}
+
+
+.summary-container{
+    display: flex;
+    width: 100%;
+    height: 913px;
+    overflow-y: hidden;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.left-section{
+    width: 835px;
+}
+
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.user-card{
+    width: 299px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: black;
+    height: 300px;
+}
+
+.user-detail p{
+    text-align: center;
+    font-size: x-large;
+    height: 35px;
+    color: aliceblue;
+}
+
+.summary-items{
+    width: 267px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.summary-item{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: larger;
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+
+.total{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total-container{
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    margin-right: 40px;
+    margin-left: 12px;
+}
+
+.total-container h2{
+    text-align: center;
+}
+
+.total-container p{
+    text-align: center;
+}
+
+
+.total-price{
+    color: rgb(20, 220, 167);
+    font-size: x-large;
+}
+
+@media screen and (max-width:768px) and (min-width:481px){
+    .total-container{
+        width: 250px;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+    .hidden-btn{
+        display: none;
+    }
+    .more-btn{
+        display: block;
+    }
+    .summary-items{
+        width: 200px;
+    }
+    .user-card{
+        width: 232px;
+    }   
+}
+
+@media screen and (max-width:480px){
+    .summary-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .summary-items{
+        width: 200px;
+    }
+    .user-card{
+        width: 232px;
+    }
+    .total-container{
+        width: 300px;
+        margin-left:30px;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+    .hidden-btn{
+        display: none;
+    }
+    .more-btn{
+        display: block;
+    }  
+    
+}
+
+.cancel-btn{
+    width: 100px;
+    margin: 0 auto;
+    background-color: rgb(64, 181, 99);
+    color: aliceblue;
+    border: none;
+    margin-top: 20px;
+    height: 25px;
+    border-radius: 20px;
+
+}
+
+.cancel-btn:hover{
+    background-color: blueviolet;
+}

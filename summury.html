@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="summury.css">
+</head>
+<body>
+
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <img src="logo-default-139x22.svg" width="60" height="80">
+            </div>
+
+            <ul class="nav-items">
+                <li ><a href="#" class="more-btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="20" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                </svg></a></li>
+                <li><a href="#" class="nav-btn">Home</a></li>
+                <li><a href="#" class="nav-btn">About</a></li>
+                <li ><a href="#footer-section" id="contactus" class="nav-btn">Contact</a></li>
+                <li ><a href="#" class="hidden-btn">Services</a></li>
+                <li ><a href="#" class="hidden-btn">Portfolio</a></li>
+                <!-- <li ><a href="#" class="more-btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="20" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                </svg></a></li> -->
+            </ul>
+
+            <div class="menu-list">
+                
+                
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Contact</p>
+                    <p>Services</p>
+                    <p>Portfolio</p>
+                
+            </div>
+
+            <div class="cart-btn">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="20" viewBox="0 0 50 50">
+                    <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" data-name="Layer 1" viewBox="0 0 24 24" id="cart"><path d="M8.5,19A1.5,1.5,0,1,0,10,20.5,1.5,1.5,0,0,0,8.5,19ZM19,16H7a1,1,0,0,1,0-2h8.49121A3.0132,3.0132,0,0,0,18.376,11.82422L19.96143,6.2749A1.00009,1.00009,0,0,0,19,5H6.73907A3.00666,3.00666,0,0,0,3.92139,3H3A1,1,0,0,0,3,5h.92139a1.00459,1.00459,0,0,1,.96142.7251l.15552.54474.00024.00506L6.6792,12.01709A3.00006,3.00006,0,0,0,7,18H19a1,1,0,0,0,0-2ZM17.67432,7l-1.2212,4.27441A1.00458,1.00458,0,0,1,15.49121,12H8.75439l-.25494-.89221L7.32642,7ZM16.5,19A1.5,1.5,0,1,0,18,20.5,1.5,1.5,0,0,0,16.5,19Z"></path></svg>
+                <span class="cart-count">0</span>
+            </div>
+
+            
+        </nav>
+
+    </header>
+
+
+    <div class="summary-container">
+        
+        <div class="left-section">
+
+            <div class="user-detail">
+                <div class="user-card">
+                    <p class="name"></p>
+                    <p class="email"></p>
+                    <p class="phone"></p>
+                    <p class="address"></p>
+                    <p class="city"></p>
+                </div>
+            </div>
+
+
+
+            <div class="summary-items">
+
+            </div>
+        </div>
+
+        <div class="total">
+
+            <div class="total-container">
+                <h2>Thank You for Your Order</h2>
+                <p><span class="total-price">0</span></p>
+            </div>
+
+            <input
+                    action="action"
+                    onclick="window.location.href = `checkout.html`;"
+                    type="submit"
+                    value="Cancel"
+                    class="cancel-btn"
+                />
+            
+        </div>
+
+    
+    </div>
+
+    <script src="summury.js"></script>
+</body>
+</html>
